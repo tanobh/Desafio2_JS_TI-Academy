@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script type="module" src="script/script.js"></script>
+    <title>Desafio2</title>
+</head>
+<body>
+    <header class="flex">
+        <ul id="header-ul">
+            <li class="header-li"><h1 class="flex">ME ACHA!</h1></li>
+            <li class="header-li"><h2 class="flex">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2></li>
+            <li class="flex header-li" id="white-circle"><span class="material-icons icon">
+                travel_explore
+                </span></li>
+        </ul>
+    </header>
+    <main class="flex">
+        <section class="flex" id="main-section">
+            <form method="post" name="form">
+                <ul class="" id="main-ul">
+                    <li class="flex main-li">
+                        <label for="Cep">CEP</label>
+                    </li>
+                    <li class="flex main-li">   
+                        <input class="main-input" type="text" name="Cep" id="Cep" value="">  <!-- entrada de cep -->
+                    </li> 
+
+                    <li class="flex main-li">
+                        <label for="Rua">Rua</label>
+                    </li>
+                    <li class="flex main-li">   
+                        <input class="main-input" disabled type="text" name="Rua" id="logradouro" value="">
+                    </li> 
+
+                    <li class="flex main-li">
+                        <label for="Bairro">Bairro</label>
+                    </li>
+                    <li class="flex main-li">   
+                        <input class="main-input" disabled type="text" name="Bairro" id="bairro" value="">
+                    </li> 
+
+                    <li class="flex main-li">
+                        <label for="Cidade">Cidade</label>
+                    </li>
+                    <li class="flex main-li">   
+                        <input class="main-input" disabled type="text" name="Cidade" id="localidade" value="">
+                    </li> 
+
+                    <li class="flex main-li">
+                        <label for="Estado">Estado</label>
+                    </li>
+                    <li class="flex main-li">   
+                        <input class="main-input" disabled type="text" name="Estado" id="uf" value="">
+                    </li> 
+
+                    <li class="flex">
+                        <input type="button" id="buscar" name="enviarDados" value="BUSCAR"> <!-- foi trocado o submit por button para os campos não sumirem -->
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,92 @@
+* {  /*reset*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+/* -----HEADER------*/
+
+header {  /*cabeçalho*/
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(to left, #2196F3, #3D5AFE);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li.header-li {  /*itens da lista do cabeçalho*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li#white-circle {  /*círculo em que o ícone está inserido*/
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px auto;
+    color: #2196F3;
+}
+
+h2 {  /*subtítulo*/
+    margin-bottom: 48px;
+    font-size: 0.8em;
+}
+
+h1 {  /*título*/
+    margin-bottom: 4px;
+}
+
+header ul#header-ul {  /*lista dos elementos do cabeçalho*/
+    margin-top: 100px;
+}
+
+.icon {  /*ícone*/
+    font-size: 64px;
+}
+
+/* -----MAIN------*/
+
+main {  /*corpo*/
+    width: 100vw;
+    height: 471px;  /*era necessário 475,6px pra fechar a tela mas ficava com scroll*/
+    align-items: center;
+    justify-content: center;
+}
+
+section#main-section {  /*contêiner para o formulário*/
+    align-items: center;
+    justify-content: center;
+    width: 27vw;
+    height: 50vh;
+    border: 1px solid black;
+}    
+
+li.main-li {  /*itens da lista do formulário*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input.main-input {  /*campos de entrada de dados*/
+    width: 20vw;
+    margin-bottom: 5px;
+    height: 4vh;
+}
+
+input#buscar {  /*campo para enviar dados*/
+    width: 20vw;
+    height: 5vh;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+    border-bottom: 3px solid black;
+}
